@@ -32,6 +32,6 @@ function App() {
 }
 
 function Bottom(){
-  return <div style={{padding: "20px", textAlign:"center"}}>this website it's just only for learnning React and using api , React-Router-dom</div>
+  return <div style={{padding: "20px", textAlign:"center"}}>this website it's just only for learnning React , using api and React-Router-dom</div>
 }
 export default App;
