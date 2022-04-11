@@ -1,0 +1,37 @@
+    .Header {
+        top: 0;
+        background-color: white;
+        width: 100%;
+        height: auto;
+        border-bottom: .7mm solid #f2f2f2;
+        /* display: flex;
+        align-items: center; */
+    }
+
+    .Header-sub {
+        font-size: 180%;
+        background-color: white;
+        height: 100%;
+        display: inline-block;
+        margin: 5px 1px;
+    /* justify-content: center;
+        align-items: center; */
+    } 
+
+    .Header-sub-a {
+        /* display: inline-block; */
+        text-decoration: none;
+        border-radius: 10px;
+        padding: 10px 20px;
+        margin: 0 10px;
+        display: inline-block;
+    }
+
+    .bg-w {
+        background-color: #f2f2f2;
+        color: #4a69ff;
+    }
+    .bg-b {
+        background-color: #4a69ff;
+        color: #f2f2f2;
+    }
