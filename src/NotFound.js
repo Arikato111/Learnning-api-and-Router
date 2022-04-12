@@ -4,7 +4,7 @@ function NotFound() {
     return <div className="App">
         <div className="content">
             <div style={{ fontSize: 30 }}>Not Found this category</div>
-            <Link to="">
+            <Link to="/">
                 <button className="btn">Fixed</button>
             </Link>
         </div>
