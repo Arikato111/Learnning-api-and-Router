@@ -35,3 +35,15 @@
         background-color: #4a69ff;
         color: #f2f2f2;
     }
+
+    @media only screen and (max-width: 600px) {
+        .Header-sub-a {
+            font-size: 14px;
+            padding: 10px;
+            margin: 0;
+        }
+
+        .font-small {
+            font-size: 14px;
+        }
+    }
