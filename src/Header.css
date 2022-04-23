@@ -14,14 +14,15 @@
         height: 100%;
         display: inline-block;
         margin: 5px 1px;
-    /* justify-content: center;
-        align-items: center; */
     } 
+    .Header-sub:active {
+        transform: scale(.9);
+    }
 
     .Header-sub-a {
         /* display: inline-block; */
         text-decoration: none;
-        border-radius: 10px;
+        border-radius: 7px;
         padding: 10px 20px;
         margin: 0 10px;
         display: inline-block;

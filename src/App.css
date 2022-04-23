@@ -31,8 +31,12 @@
   color: white;
   margin: 10px;
   border: none;
-  border-radius: 20px;
+  border-radius: 7px;
   cursor: pointer;
+}
+
+.btn:active {
+  transform: scale(.9);
 }
 
 @media only screen and (max-width: 600px) {

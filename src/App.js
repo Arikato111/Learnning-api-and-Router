@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './App.css';
+import 'antd/dist/antd.css'
 import Header from "./Header";
 import {
   BrowserRouter as Router,
@@ -7,6 +8,7 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
+
 import CategoryApi from "./CategoryApi";
 import LanguageSelect from './Language';
 
