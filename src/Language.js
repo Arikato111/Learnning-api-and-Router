@@ -40,6 +40,7 @@ function LanguageSelect({ lang, setLang }) {
             onClick={() => {
               setLang("th");
               setVisibleModal(false);
+              localStorage.setItem("language","th")
               message.success("change language to TH",1)
             }}
           >
@@ -51,6 +52,7 @@ function LanguageSelect({ lang, setLang }) {
             }
             onClick={() => {
               setLang("ja");
+              localStorage.setItem("language","ja")
               setVisibleModal(false);
               message.success("change language to JA",1)
             }}
@@ -63,6 +65,7 @@ function LanguageSelect({ lang, setLang }) {
             }
             onClick={() => {
               setLang("en");
+              localStorage.setItem("language","en")
               setVisibleModal(false);
               message.success("change language to EN",1)
             }}
@@ -75,6 +78,7 @@ function LanguageSelect({ lang, setLang }) {
             }
             onClick={() => {
               setLang("fr");
+              localStorage.setItem("language","fr")
               setVisibleModal(false);
               message.success("change language to FR",1)
             }}
@@ -87,6 +91,7 @@ function LanguageSelect({ lang, setLang }) {
             }
             onClick={() => {
               setLang("de");
+              localStorage.setItem("language","de")
               setVisibleModal(false);
               message.success("change language to DE",1)
             }}

@@ -38,7 +38,7 @@ function CategoryApi({ changeMode, language, mode }) {
   useEffect(() => {
     getApi();
     getApi2();
-  }, [language, mode])
+  }, [language])
 
   document.title = id ? "App | chuckmorris Category" : "App | chuckmorris default";
 

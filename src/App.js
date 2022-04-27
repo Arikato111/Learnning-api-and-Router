@@ -14,7 +14,7 @@ import LanguageSelect from './Language';
 
 function App() {
   const [modeHeader, setModeHeader] = useState("");
-  const [lang, setLang] = useState("th");
+  const [lang, setLang] = useState(localStorage.getItem("language")?localStorage.getItem("language"): "th");
 
   function changeModeHeader(value) {
     setModeHeader(value);
